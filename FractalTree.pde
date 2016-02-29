@@ -10,7 +10,7 @@ int green = 75;
 int blue = 50;
 public void setup() 
 {   
-	frameRate(40);
+
 	size(640,500);    
 	africa = loadImage("AfricanSavanna.jpg");
 	rain = new RainDrops[100];
