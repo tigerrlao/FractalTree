@@ -24,7 +24,6 @@ public void draw()
 	stroke(145,75,50);
 	line(320,480,320,380);   
 	drawBranches(320,380,75,3*Math.PI/2);
-	System.out.println(smallestBranch);
 	if(grow == true && smallestBranch>= 10)
 	{
 		smallestBranch -= 1;
