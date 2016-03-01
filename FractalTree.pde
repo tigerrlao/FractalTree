@@ -17,6 +17,7 @@ public void setup()
 	for(int i = 0; i < rain.length;i++)
 		rain[i] = new RainDrops();
 } 
+
 public void draw() 
 {   
 	image(africa,0,0,640,500);
